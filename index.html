@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma  de Streaming</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Opa Flix</h1>
+        <input type="text" id="search-input" placeholder="Search for movies...">
+        <button id="search-button">Search</button>
+    </header>
+    <div class="carousel">
+        <div><img src="img/filme.jpg" alt="" /></div>
+        <div><img src="img/carro.jpg" alt="" /></div>
+        <div><img src="img/espada.jpg" alt=""/></div>
+        <div><img src="img/trans.jpg" alt="" /></div>
+        <div><img src="img/alien.jpg" alt="" /></div>
+        <div><img src="img/bastardo.jpg" alt="" /></div>
+        <div><img src="img/golpe.jpg" alt="" /></div>
+        <div><img src="img/hellboy.jpg" alt="" /></div>
+        <div><img src="img/nHD1aBR8VaZxGQWKwXr9oHMGe0s.jpg" alt="" /></div>
+        <div><img src="img/macaco.jpg" alt="" /></div>
+        <div><img src="img/pasdre.jpg" alt="" /></div>
+        <div><img src="img/kong.jpg" alt="" /></div>
+      </div>
+
+    <div class="container">
+        <h2>Popular Movies</h2>
+        <div id="movie-list" class="movie-grid"></div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close" class="close">&times;</span>
+            <div id="movie-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
